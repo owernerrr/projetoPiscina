@@ -16,7 +16,7 @@ html{
 
 .nav{
     background-color:  #000080;
-    height: 50px;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -38,10 +38,250 @@ html{
     text-decoration: none;
     color: #ffffff;
     padding: 20px; 
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
 
 .nav-list a:hover{
-    border-bottom: #00eeff 5px solid;
-    color: #00eeff;
+    border-bottom: #4373f8 5px solid;
+    color: #4373f8;
+}
+
+.models{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.models h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #4373f8;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+.models-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.models-img{
+    width: 350px;
+    height: 275px;
+    margin-left: 20px;
+    margin-top: 10px;
+    transition: 1s;
+    border-radius: 4px; 
+}
+
+.models img:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.models-button{
+    background-color: #000080;
+    border: 0;
+    margin-top: 0px;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.models-button:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    color: #4373f8;
+}
+
+.instalacao {
+  padding: 0;
+}
+
+.instalacao h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #4373f8;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+.container-inst{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.intro {
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.bloco {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.bloco.reverse {
+  flex-direction: row-reverse;
+}
+
+.imagem img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.imagem:hover img {
+  opacity: 1;
+  transform: scale(1.05);
+  transition: 1.5s;
+}
+
+.texto {
+  flex: 1;
+}
+
+.texto h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  line-height: 1.6;
+}
+
+.conth2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #4373f8;
+    font-size: 34px;
+    margin-bottom: 40px; 
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+
+.formulario {
+    flex: 1;
+    margin-left: 80px;
+}
+
+.formulario label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 14px;
+    color: #555;
+}   
+
+.formulario input,.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 2px;
+}
+
+.formulario textarea {
+    resize: none;
+}
+
+.recaptcha {
+    margin-top: 20px;
+}
+
+.fake-recaptcha {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: fit-content;
+    background: #fff;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 20px;
+    background: #3f51b5;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+button:hover {
+    background: #303f9f;
+}
+
+.mapa {
+    margin-left: 30px;
+    flex: 1;
+}
+
+.mapa iframe {
+    width: 80%;
+    height: 600px;
+    border: none;
+}
+
+footer{
+    background-color: #4373f8;
+    width: 100%;
+    padding: 20px 1px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+footer img{
+    width: 5%;
+    height: 5%;
+    margin-right: 60px;
+}
+
+footer a{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.maps{
+    width: 10%;
+    height: 20%;
+    padding: 0;
+    margin: 0;
+    margin-left: 60px;
+}
+
+.contfoot{
+    width: 150px;
+    height: 150px;
 }
